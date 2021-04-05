@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <body>
@@ -5,7 +6,9 @@
  h1 {
 background-color:red;
 color:green;
-text-align:center;
+text-align:center; 
+
+     
 }
 button {
 background-color:green;
@@ -17,19 +20,23 @@ color:blue;
   font-size: 16px;
   margin: 4px 2px;
 }
+p1
   </style>
 <script>
-function CreateNewAccount()
-document.getElementById('AccountCreationFailed').innerHTML="Sorry! There was an error creating your account. We'll try to fix this soon!"
+function CreateNewAccount() {
+{
+  alert("Oops! There was an error creating your account. Please try again!");
+}
+}
 </script>
-  
+  <br>
+    <br>
 <h1>Create a new account today!</h1>
 <br>
 <br>
-<input type="text">Username</input>
-<input type="text">Password</input>
-<button onclick="CreateNewAccount()">Create a new account</button>
+<input type="text">Username</input><br>
+<input type="text">Password</input><br>
+<button onclick="CreateNewAccount()">Create a new<br> account</button>
 <br>
-<p1 id="AccountCreationFailed"></p1>
 </body>
 </html> 
