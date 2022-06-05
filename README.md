@@ -1,4 +1,4 @@
 # Fake-Account-Creation-Site
 Dumb account creation site :)
-Download the file and click it to check it out.
+Head over to releases and download the latest version. You don't have to extract it just you can click it.
 BTW, it's 666 bytes. 
